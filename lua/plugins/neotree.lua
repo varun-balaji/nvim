@@ -1,3 +1,5 @@
+local root_dir_message = "NeoTree (root dir)"
+local cwd_message = "NeoTree (cwd)"
 local Util = require("lazyvim.util")
 
 return {
@@ -10,17 +12,17 @@ return {
         function()
           require("neo-tree.command").execute({ toggle = true, dir = Util.root() })
         end,
-        desc = "NeoTree (root dir)",
+        desc = root_dir_message,
       },
       {
         "<leader>fT",
         function()
           require("neo-tree.command").execute({ toggle = true, dir = vim.loop.cwd() })
         end,
-        desc = "NeoTree (cwd)",
+        desc = cwd_message,
       },
-      { "<leader>t", "<leader>ft", desc = "NeoTree (root dir)", remap = true },
-      { "<leader>T", "<leader>fT", desc = "NeoTree (cwd)", remap = true },
+      { "<leader>t", "<leader>ft", desc = root_dir_message, remap = true },
+      { "<leader>T", "<leader>fT", desc = cwd_message, remap = true },
 
       -- Disable default keymaps
       { "<leader>fe", false },
