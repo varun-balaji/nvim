@@ -14,6 +14,7 @@ return {
         ["<leader>O"] = "actions.close",
         ["<leader>fo"] = "actions.close",
         ["<leader>fO"] = "actions.close",
+        ["<esc>"] = "actions.close",
       },
       view_options = {
         -- Show files and directories that start with "."

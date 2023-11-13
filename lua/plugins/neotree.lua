@@ -5,6 +5,13 @@ local Util = require("lazyvim.util")
 return {
   {
     "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        mappings = {
+          ["<esc>"] = "close_window",
+        },
+      },
+    },
     keys = {
       -- Swap to t/T instead of e/E
       {

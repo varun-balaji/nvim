@@ -11,6 +11,9 @@ return {
       width_preview = 80,
     },
     -- TODO Need better mappings
+    mappings = {
+      close = "<esc>", -- Sucks that you can't map two keys to the same function
+    },
   },
   keys = {
     {
