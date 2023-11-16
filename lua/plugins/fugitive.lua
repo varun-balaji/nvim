@@ -4,6 +4,8 @@ return {
     keys = {
       { "<leader>gs", "<cmd>Git<CR>", desc = "Status (fugitive)" },
     },
+    -- Don't lazy-load. We might want this on startup.
+    lazy = false,
   },
   {
     "nvim-telescope/telescope.nvim",

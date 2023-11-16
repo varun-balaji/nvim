@@ -1,0 +1,2 @@
+- [ ] Enable search for recent files with <space>r
+- [ ] Get theprimeagens sick remaps
