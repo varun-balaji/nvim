@@ -1,2 +1,3 @@
 - [ ] Enable search for recent files with <space>r
 - [ ] Get theprimeagens sick remaps
+- [ ] Fix supertab behaviour: tab to confirm instead of enter

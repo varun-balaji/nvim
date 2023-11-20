@@ -9,6 +9,10 @@ return {
         -- Set indent value to 2 spaces and indent switch cases
         prepend_args = { "-i", "2", "-ci" },
       },
+      autopep8 = {
+        -- Set line length to 120
+        prepend_args = { "--max-line-length", "120" },
+      },
     },
   },
 }
