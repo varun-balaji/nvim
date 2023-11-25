@@ -9,12 +9,20 @@ return {
       keymaps = {
         -- Backspace to go up a directory
         ["<bs>"] = "actions.parent",
+        -- All the close options
         ["q"] = "actions.close",
         ["<leader>o"] = "actions.close",
         ["<leader>O"] = "actions.close",
         ["<leader>fo"] = "actions.close",
         ["<leader>fO"] = "actions.close",
         ["<esc>"] = "actions.close",
+        -- Fix split opening keymaps
+        ["<C-h"] = false,
+        ["<C-v"] = "actions.select_vsplit",
+        ["<C-s"] = "actions.select_split",
+        -- Add preview scrolling
+        ["<C-d"] = "actions.preview_scroll_down",
+        ["<C-u"] = "actions.preview_scroll_up",
       },
       view_options = {
         -- Show files and directories that start with "."
