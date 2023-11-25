@@ -17,12 +17,12 @@ return {
         ["<leader>fO"] = "actions.close",
         ["<esc>"] = "actions.close",
         -- Fix split opening keymaps
-        ["<C-h"] = false,
-        ["<C-v"] = "actions.select_vsplit",
-        ["<C-s"] = "actions.select_split",
+        ["<C-h>"] = false,
+        ["<C-v>"] = "actions.select_vsplit",
+        ["<C-s>"] = "actions.select_split",
         -- Add preview scrolling
-        ["<C-d"] = "actions.preview_scroll_down",
-        ["<C-u"] = "actions.preview_scroll_up",
+        ["<C-d>"] = "actions.preview_scroll_down",
+        ["<C-u>"] = "actions.preview_scroll_up",
       },
       view_options = {
         -- Show files and directories that start with "."
@@ -44,8 +44,6 @@ return {
       {
         "<leader>fO",
         function()
-          -- TODO: Figure out if we want root dir or cwd
-          -- require("oil").open(vim.loop.cwd())
           require("oil").open(Util.root())
         end,
         desc = root_dir_message,

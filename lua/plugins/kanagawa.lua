@@ -2,15 +2,7 @@
 return {
   {
     "rebelot/kanagawa.nvim",
-    -- Added to copy LazyVim
-    -- lazy = true,
-    -- name = "kanagawa",
-    -- Commented
     priority = 1000,
-    -- TODO: What if I comment out the config function?
-    -- config = function()
-    --   vim.cmd.colorscheme("kanagawa")
-    -- end,
     opts = {
       overrides = function(colors)
         local theme = colors.theme
@@ -52,6 +44,7 @@ return {
     },
   },
   {
+    -- Set kanagawa as the default colorscheme
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "kanagawa",

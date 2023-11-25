@@ -5,8 +5,6 @@ return {
   { "folke/noice.nvim", enabled = false },
   { "folke/tokyonight.nvim", enabled = false },
   { "catppuccin/nvim", enabled = false },
-
-  -- Disable unwanted keymaps
   {
     "folke/flash.nvim",
     keys = {

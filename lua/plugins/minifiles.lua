@@ -26,9 +26,9 @@ return {
     {
       "<leader>fE",
       function()
-        -- TODO: Figure out if we want root dir or cwd
-        -- require("mini.files").open(vim.loop.cwd(), true)
         require("mini.files").open(Util.root(), true)
+        -- Uncomment and replace for current working dir
+        -- require("mini.files").open(vim.loop.cwd(), true)
       end,
       desc = root_dir_message,
     },
