@@ -1,5 +1,6 @@
 # Future improvements
 
+- [ ] Make help appear on a rightside split with 80 char width
 - [ ] Add rhubarb keybinds and options
 - [ ] Enable search for recent files with SPACE-r
 - [ ] Change vim-illuminate to highlight instead of underline.
