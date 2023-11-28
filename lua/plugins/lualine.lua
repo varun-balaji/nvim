@@ -12,6 +12,8 @@ return {
         -- Change from arrow separators to vertical
         component_separators = "|",
         section_separators = "",
+        -- Statusline for each window
+        globalstatus = false,
       },
       sections = {
         -- Move git diff from section x to section b
