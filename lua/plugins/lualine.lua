@@ -13,7 +13,7 @@ return {
         component_separators = "|",
         section_separators = "",
         -- Statusline for each window
-        globalstatus = false,
+        globalstatus = true,
       },
       sections = {
         -- Move git diff from section x to section b
