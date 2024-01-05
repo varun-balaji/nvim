@@ -11,6 +11,9 @@ return {
           ["<esc>"] = "close_window",
         },
       },
+      filesystem = {
+        hijack_netrw_behavior = "disabled",
+      },
     },
     keys = {
       -- Swap to t/T instead of e/E

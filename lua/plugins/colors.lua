@@ -1,4 +1,4 @@
--- Kanagawa <3
+-- Kanagawa and Rosepine <3
 return {
   {
     "rebelot/kanagawa.nvim",
@@ -43,11 +43,15 @@ return {
       end,
     },
   },
+  { "rose-pine/neovim", name = "rose-pine" },
+  { "maxmx03/solarized.nvim", name = "solarized" },
   {
-    -- Set kanagawa as the default colorscheme
+    -- Set the default colorscheme
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa",
+      -- colorscheme = "kanagawa",
+      -- colorscheme = "rose-pine",
+      colorscheme = "solarized",
     },
   },
 }
