@@ -11,3 +11,4 @@
 - [x] Update the kanagawa file with telescope changes from the repo
 - [ ] TJ's method of executing lua (and maybe python) code from a buffer
 - [ ] Add mapping to display git blame with inline virtual text
+- [ ] Add mappings for fast and easy tab navigation
