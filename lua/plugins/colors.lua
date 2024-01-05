@@ -49,9 +49,9 @@ return {
     -- Set the default colorscheme
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "kanagawa",
+      colorscheme = "kanagawa",
       -- colorscheme = "rose-pine",
-      colorscheme = "solarized",
+      -- colorscheme = "solarized",
     },
   },
 }
