@@ -3,6 +3,8 @@ return {
   {
     "stevearc/conform.nvim",
     opts = {
+      -- Disable shfmt
+      formatters_by_ft = { sh = {} },
       formatters = {
         injected = { options = { ignore_errors = true } },
         shfmt = {
