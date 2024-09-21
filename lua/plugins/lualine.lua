@@ -14,6 +14,8 @@ return {
         section_separators = "",
         -- Statusline for each window
         globalstatus = true,
+        -- Also change in config/options
+        -- globalstatus = false,
       },
       sections = {
         -- Move git diff from section x to section b

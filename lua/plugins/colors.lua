@@ -44,14 +44,12 @@ return {
     },
   },
   { "rose-pine/neovim", name = "rose-pine" },
-  { "maxmx03/solarized.nvim", name = "solarized" },
   {
     -- Set the default colorscheme
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "kanagawa",
       -- colorscheme = "rose-pine",
-      -- colorscheme = "solarized",
     },
   },
 }
