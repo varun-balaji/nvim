@@ -16,7 +16,7 @@ return {
     opts.completion = { completeopt = "menu,menuone,noinsert,noselect" }
 
     opts.mapping = vim.tbl_extend("force", opts.mapping, {
-      ["<CR>"] = cmp.config.disable,
+      -- ["<CR>"] = cmp.config.disable,
       ["<Tab>"] = cmp.mapping(function(fallback)
         if cmp.visible() then
           -- You could replace select_next_item() with confirm({ select = true }) to get VS Code autocompletion behavior
