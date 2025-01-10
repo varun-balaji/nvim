@@ -1,3 +1,8 @@
+-- REMOVED SINCE WE'RE USING BLINK.CMP INSTEAD
+if true then
+  return {}
+end
+
 -- Taken from https://www.lazyvim.org/configuration/recipes#supertab
 return {
   "hrsh7th/nvim-cmp",
@@ -19,7 +24,6 @@ return {
       ["<CR>"] = cmp.config.disable,
       ["<Tab>"] = cmp.mapping(function(fallback)
         if cmp.visible() then
-          -- You could replace select_next_item() with confirm({ select = true }) to get VS Code autocompletion behavior
           cmp.select_next_item()
         elseif vim.snippet.active({ direction = 1 }) then
           vim.schedule(function()
