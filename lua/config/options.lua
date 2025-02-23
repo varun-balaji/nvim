@@ -17,3 +17,6 @@ opt.relativenumber = false -- Relative line numbers
 
 -- Disable LazyVim auto format
 -- vim.g.autoformat = false
+
+-- Disable smooth scroll
+vim.g.snacks_animate = false
