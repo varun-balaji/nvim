@@ -3,7 +3,7 @@ local root_dir_message = "Open mini.files (root dir)"
 local Util = require("lazyvim.util")
 
 return {
-  "echasnovski/mini.files",
+  "nvim-mini/mini.files",
   opts = {
     windows = {
       -- Only show 3 columns
